@@ -19,7 +19,7 @@ And then execute:
 
     DFT.forward(values, window)
     * values: target data array
-    * windows: windowing data array(option)
+    * window: windowing data array(option)
 
 ## Contributing
 
