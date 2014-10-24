@@ -7,11 +7,13 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'dft', :path => 'vendor/gems/dft'
+    gem 'dft', :path => 'your_directry/dft'
 
 And then execute:
 
     $ bundle
+    cd your_directry/dft
+    rake compile
 
 ## Usage
 
