@@ -2,8 +2,8 @@ require "dft/version"
 
 module DFT
   def forward(values, window=nil)
-    unless window
-      window = [1] * values.size
+    if window
+      raise ArgumentError, "window" unless window.is_a?(Array) && (window.length == values.length)
     end
     execute(values, window)
   end
